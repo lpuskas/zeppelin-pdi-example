@@ -28,7 +28,7 @@ pipeline:
         sparkSubmitOptions:
           eventLogDirectory: "gs://puski-testing/data"
       historyServer:
-          enabled: true
+        enabled: true
       spark:
         spark-hs:
           app:
