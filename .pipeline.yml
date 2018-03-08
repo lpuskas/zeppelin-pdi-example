@@ -1,7 +1,7 @@
 pipeline:
   create_cluster:
     image: banzaicloud/plugin-pipeline-client:latest
-    cluster_name: "pdicluster02"
+    cluster_name: "pdicluster03"
     cluster_provider: "google"
     google_project: "puski-test-194413"
     google_gke_version: "1.8.7-gke.1"
