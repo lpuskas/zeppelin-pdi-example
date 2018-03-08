@@ -28,11 +28,11 @@ pipeline:
         sparkSubmitOptions:
           eventLogDirectory: "gs://puski-testing/data"
       historyServer:
-            enabled: true
+          enabled: true
       spark:
-            spark-hs:
-                app:
-                    logDirectory: "gs://puski-testing/data"
+        spark-hs:
+          app:
+            logDirectory: "gs://puski-testing/data"
     
      secrets: [plugin_endpoint, plugin_token]
   
