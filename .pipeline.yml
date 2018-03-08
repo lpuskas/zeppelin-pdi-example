@@ -48,4 +48,3 @@ pipeline:
     notebook_state: "running"
     endpoint: "http://release-1-zeppelin:8080/zeppelin"
 
-    secrets: [plugin_endpoint, plugin_token]
