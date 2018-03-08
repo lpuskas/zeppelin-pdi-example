@@ -56,6 +56,7 @@ pipeline:
   run:
     image: banzaicloud/drone-plugin-k8s-client:latest
     original_image: banzaicloud/zeppelin-client:latest
+    log_level: "debug"
     notebook_name: "sf-police-incidents"
     notebook_file_path: "sf-police-incidents-gke.json"
     notebook_state: "running"
