@@ -1,7 +1,7 @@
 pipeline:
   create_cluster:
     image: banzaicloud/plugin-pipeline-client:latest
-    cluster_name: "pdicluster05"
+    cluster_name: "pdicluster06"
     cluster_provider: "google"
     google_project: "puski-test-194413"
     google_gke_version: "1.8.7-gke.1"
@@ -46,5 +46,5 @@ pipeline:
     notebook_name: "sf-police-incidents"
     notebook_file_path: "sf-police-incidents-gke.json"
     notebook_state: "running"
-    endpoint: "http://release-1-zeppelin:8080/zeppelin"
+    zeppelin_endpoint: "http://release-1-zeppelin:8080/zeppelin"
 
