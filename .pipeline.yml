@@ -33,8 +33,7 @@ pipeline:
         spark-hs:
           app:
             logDirectory: "gs://puski-testing/data"
-    
-     secrets: [plugin_endpoint, plugin_token]
+    secrets: [plugin_endpoint, plugin_token]
   
   remote_checkout:
     image: banzaicloud/drone-plugin-k8s-client:latest
